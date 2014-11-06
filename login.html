@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Emineo</title>
+
+  <meta name="title" content=""/>
+  <meta name="description" content=""/>
+  <meta content="" name="keywords">
+
+  <link href="stylesheets/emineo.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="javascripts/emineo.js"></script>
+</head>
+
+<body>
+
+<header>
+  <a href="http://www.emineo.ch">
+    <img src="images/logo.png" title="Emineo AG" alt="Emineo AG" />
+  </a>
+</header>
+
+<section>
+  <div class="login">
+    <div class="error"></div>
+    <form class="formLogin">
+
+      <label for="username"></label>
+      <input type="text" id="username" name="username" placeholder="Benutzername">
+
+      <label for="password"></label>
+      <input type="password" id="password" name="password" placeholder="Passwort">
+
+      <div class="action">
+        <input class="btnLogin" type="submit" onclick="checkLogin()" value="Login">
+      </div>
+
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>
+    emineo AG - Heinrichstrasse 241 - CH - 8005 Zürich
+  </p>
+</footer>
+
+</body>
+</html>
